@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Ariane Rocha</title>
 </head>
 <body>
-    
+
+   <div id="container">
+    <img src="img/flower.jpg" />
+    <div id="overlay">“Existe uma teoria que diz que, se um dia alguém descobrir exatamente para que serve o Universo e por que ele está aqui, ele desaparecerá instantaneamente e será substituído por algo ainda mais estranho e inexplicável. Existe uma segunda teoria que diz que isso já aconteceu.”
+    </div>
+ </div>
+    <svg width="450" height="100" viewBox="0 0 450 100" style="position: absolute; top: 0;">
+      <defs>
+        <filter id="blur">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="3" />
+        </filter>
+      </defs>
+      <image filter="url(#blur)" xlink:href="http://lorempixel.com/450/300/sports" x="0" y="0" height="300px" width="450px" />
+    </svg>
+  </div>
+  
 </body>
 </html>
